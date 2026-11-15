@@ -1,0 +1,30 @@
+{
+  "name": "SENSORA · un dulce, mil percepciones",
+  "short_name": "SENSORA",
+  "lang": "es",
+  "description": "Imagina el sabor, pruébalo y compara lo que sentiste con los demás.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#2540E8",
+  "theme_color": "#2540E8",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
