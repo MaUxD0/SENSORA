@@ -1,5 +1,5 @@
-// SENSORA · service worker (sensora-mwhdyql3): red primero, copia guardada si no hay conexión
-const C = "sensora-mwhdyql3";
+// SENSORA · service worker (sensora-mwiht78v): red primero, copia guardada si no hay conexión
+const C = "sensora-mwiht78v";
 const BASE = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 self.addEventListener("install", (e) => { self.skipWaiting(); e.waitUntil(caches.open(C).then((c) => c.addAll(BASE)).catch(() => {})); });
 self.addEventListener("activate", (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== C).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });
